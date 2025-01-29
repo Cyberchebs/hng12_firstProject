@@ -63,13 +63,13 @@ body {
 
 .socials a .bx:hover {
   font-size: 250px;
-  transition: 0.3s ease-in-out;
 }
 
 .bxl-github,
 .bxl-twitter,
 .bxl-linkedin-square {
   font-size: 200px;
+  transition: 0.3s ease-in-out;
 }
 
 .linker {
