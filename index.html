@@ -19,14 +19,22 @@
   <body>
     <div class="info_section">
       <div class="info_box">
-        <h1>Frontend developer</h1>
-        <img src="/assets/my picture.jpg" alt="my picture" />
-        <h2>Chebem Nzom Godwin</h2>
-        <p>email:<span> chebemnzomblack@gmail.com</span></p>
+        <h1 data-testid="jobTitle">Frontend developer</h1>
+        <img
+          src="/assets/my picture.jpg"
+          alt="my picture"
+          data-testid="profilePicture"
+        />
+        <h2 data-testid="fullName">Chebem Nzom Godwin</h2>
+        <p>
+          email:<span data-testid="emailAddress">
+            chebemnzomblack@gmail.com</span
+          >
+        </p>
       </div>
       <div class="info_boxi">
         <h1>Bio</h1>
-        <p>
+        <p data-testid="shortBio">
           I am a front-end developer passionate about React and crafting dynamic
           web experiences. I Write clean code, make responsive design, and
           seamless user interactions. I'm Always eager to learn and improve, I
@@ -39,17 +47,17 @@
       <div class="time-box">
         <h2>UTC</h2>
         <i class="bx bx-time"></i>
-        <span id="utc-time"></span>
+        <span id="utc-time" data-testid="currentTimeUTC"></span>
       </div>
       <div class="location-box">
         <h2>Location</h2>
         <i class="bx bxs-map"></i>
-        <span>Enugu,Nigeria</span>
+        <span data-testid="currentLocation">Enugu,Nigeria</span>
       </div>
     </div>
     <div class="socials_section">
       <h1>My Socials</h1>
-      <div class="socials">
+      <div class="socials" data-testid="socialLinks">
         <a href="https://www.linkedin.com/in/chebem-nzom-1921b8256/">
           <div class="linker">
             <i class="bx bxl-linkedin-square"></i>
